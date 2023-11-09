@@ -1,0 +1,60 @@
+# Data Science Tools and Arithmetic Expressions
+
+## Introduction
+
+Welcome to this Jupyterlite Notebook showcasing various data science tools and examples of arithmetic expressions.
+
+### Data Science Languages
+
+- Python
+- R
+- Julia
+
+### Data Science Libraries
+
+- NumPy
+- Pandas
+- Matplotlib
+
+### Data Science Tools
+
+| Tool            | Purpose                    |
+|-----------------|----------------------------|
+| Jupyter Notebook | Interactive coding          |
+| TensorFlow      | Machine learning framework |
+| Tableau         | Data visualization         |
+
+## Arithmetic Expression Examples
+
+Arithmetic expressions are used to perform mathematical operations. Some examples include:
+
+- Addition: 5 + 3
+- Subtraction: 10 - 4
+- Multiplication: 6 * 2
+- Division: 8 / 2
+
+## Code Examples
+
+### Multiplication and Addition
+
+```python
+# Multiplication
+result_multiply = 5 * 4
+
+# Addition
+result_add = 10 + 3
+
+print(f"Multiplication result: {result_multiply}")
+print(f"Addition result: {result_add}")
+
+# Convert minutes to hours
+def convert_minutes_to_hours(minutes):
+    hours = minutes / 60
+    return hours
+
+# Example conversion
+minutes = 120
+hours = convert_minutes_to_hours(minutes)
+print(f"{minutes} minutes is equal to {hours} hours.")
+
+# Author: David
